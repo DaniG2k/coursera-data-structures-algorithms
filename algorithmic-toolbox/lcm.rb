@@ -2,9 +2,8 @@
 #require 'benchmark'
 
 def gcd(a, b)
-  a, b = a.abs, b.abs
-  while b > 0
-    a, b = b, a % b
+  while b != 0
+    tmp = b; b = a % b; a = tmp;
   end
   a
 end
