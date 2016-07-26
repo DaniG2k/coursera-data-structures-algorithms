@@ -12,3 +12,9 @@ Coursera: Data Structures and Algorithms
 #. `Greatest Common Divisor <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/gcd.rb>`_
 #. `Least Common Multiple <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/lcm.rb>`_
 #. `Huge Fibonacci Number modulo m <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/fibonacci_huge.rb>`_
+
+**Greedy Algorithms**
+
+#. `Changing Money <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/greedy-algorithms/change.rb>`_
+#. `Fractional Knapsack <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/greedy-algorithms/fractional_knapsack.rb>`_
+#. `Minimum Dot Product <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/greedy-algorithms/dot_product.rb>`_
