@@ -18,3 +18,5 @@ Coursera: Data Structures and Algorithms
 #. `Changing Money <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/greedy-algorithms/change.rb>`_
 #. `Fractional Knapsack <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/greedy-algorithms/fractional_knapsack.rb>`_
 #. `Minimum Dot Product <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/greedy-algorithms/dot_product.rb>`_
+#. `Covering Segments by Points <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/greedy-algorithms/covering_segments.rb>`_
+#. `Pairwise Distinct Summands <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/greedy-algorithms/different_summands.rb>`
