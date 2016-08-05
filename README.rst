@@ -20,3 +20,12 @@ Coursera: Data Structures and Algorithms
 #. `Minimum Dot Product <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/greedy-algorithms/dot_product.rb>`_
 #. `Covering Segments by Points <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/greedy-algorithms/covering_segments.rb>`_
 #. `Pairwise Distinct Summands <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/greedy-algorithms/different_summands.rb>`_
+
+**Divide and Conquer**
+
+#. `Implementing Binary Search <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/divide-and-conquer/binary_search.rb>`_
+#. `Finding a Majority Element <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/divide-and-conquer/majority_element.rb>`_
+#. `Improving Quick Sort`_
+#. `How Close a Data is To Being Sorted?`_
+#. `Organizing a Lottery`_
+#. `Finding the Closest Pair of Points`_
