@@ -7,7 +7,7 @@ def merge_sort(a)
   right, inversions_right = merge_sort(a[a.size/2..-1])
 
   merged_array, merged_inversions = merge(left, right)
-  [merged_array, (inversions_left + inversions_right + merged_inversions)]
+  [merged_array, (merged_inversions + inversions_left + inversions_right)]
 end
 
 def merge(left, right)
@@ -17,8 +17,8 @@ def merge(left, right)
     if left[0] <= right[0]
       sorted << left.shift
     else
-      inversions += 1
       sorted << right.shift
+      inversions += left.size
     end
   end
   [sorted.concat(left).concat(right), inversions]
