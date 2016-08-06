@@ -25,7 +25,7 @@ Coursera: Data Structures and Algorithms
 
 #. `Implementing Binary Search <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/divide-and-conquer/binary_search.rb>`_
 #. `Finding a Majority Element <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/divide-and-conquer/majority_element.rb>`_
-#. `Improving Quick Sort`_
-#. `How Close a Data is To Being Sorted?`_
+#. `Improving Quick Sort <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/divide-and-conquer/sorting.rb>`_
+#. `How Close a Data is To Being Sorted? <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/divide-and-conquer/inversions.rb>`_
 #. `Organizing a Lottery`_
 #. `Finding the Closest Pair of Points`_
