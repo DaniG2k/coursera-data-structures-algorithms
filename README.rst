@@ -29,3 +29,7 @@ Coursera: Data Structures and Algorithms
 #. `How Close a Data is To Being Sorted? <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/divide-and-conquer/inversions.rb>`_
 #. `Organizing a Lottery <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/divide-and-conquer/points_and_segments.rb>`_
 #. `Finding the Closest Pair of Points`_
+
+**Dynamic Programming**
+
+#. `Primitive Calculator <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/dynamic-programming/primitive_calculator.rb>`_
