@@ -1,25 +1,26 @@
 #!/usr/bin/ruby
 
-def optimal_weight(max_weight, item_weights)
-  cols = max_weight
-  rows = item_weights.size
-  matrix = Array.new(rows, Array.new(cols, 0))
+def optimal_weight(max_capacity, n, v)
+  w = v
+  # Create a matrix
+  m = Array.new(n + 1){ Array.new(max_capacity, 0) }
 
-  (0..rows-1).each do |row|
-    current_weight = item_weights[row]
-    puts "Item weight: #{current_weight}"
-    puts "Row: #{row}"
-    (0..cols).each do |col|
-      puts "Col: #{col}\tcurrent weight: #{current_weight}\tLess than col? #{current_weight <= col}\tRow-1 val: #{matrix[row-1][col-current_weight]}"
-      if current_weight <= col
-        
+  n.times do |i|
+    max_capacity.times do |j|
+      if j + 1 < w[i]
+        m[i + 1][j] = m[i][j]
+      elsif j >= w[i]
+        m[i + 1][j] = [m[i][j], m[i][j - w[i]] + v[i]].max
+      else
+        m[i + 1][j] = [m[i][j], v[i]].max
       end
     end
-    sleep 2
-    puts "\n\n"
   end
-  matrix
+  # The final result in the matrix contains
+  # the optimal weight.
+  m[n][max_capacity-1]
 end
 
-#p optimal_weight(7, [1, 3, 4, 5])
-p optimal_weight(7, [1, 3])
+max_capacity, n = gets.chomp.split(' ').map(&:to_i)
+items = gets.chomp.split(' ').map(&:to_i)
+puts optimal_weight(max_capacity, n, items)
