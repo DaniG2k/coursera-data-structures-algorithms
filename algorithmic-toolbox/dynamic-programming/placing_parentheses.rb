@@ -1,5 +1,4 @@
 #!/usr/bin/ruby
-require 'pry'
 def eval_expr(a, op, b)
   case op
   when '+'
@@ -32,7 +31,6 @@ end
 def parentheses(expression)
   ops = expression.split(/\d/).reject {|e| e == ''}
   nums = expression.split(/\D/).map(&:to_i)
-  #binding.pry
   n = nums.size
 
   # Set up the matrix
@@ -54,5 +52,7 @@ def parentheses(expression)
   matrix_max[0][n]
 end
 
-p parentheses('1+5')
-p parentheses('5-8+7*4-8+9')
+#p parentheses('1+5')
+#p parentheses('5-8+7*4-8+9')
+expr = gets.chomp
+puts parentheses(expr)
