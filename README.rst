@@ -35,3 +35,4 @@ Coursera: Data Structures and Algorithms
 #. `Primitive Calculator <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/dynamic-programming/primitive_calculator.rb>`_
 #. `Take as Much Gold as Possible (Knapsack Problem) <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/dynamic-programming/knapsack.rb>`_
 #. `Edit Distance Between Two Strings <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/dynamic-programming/edit_distance.rb>`_
+#. `Placing Parentheses <https://github.com/DaniG2k/coursera-data-structures-algorithms/blob/master/algorithmic-toolbox/dynamic-programming/placing_parentheses.rb>`_
