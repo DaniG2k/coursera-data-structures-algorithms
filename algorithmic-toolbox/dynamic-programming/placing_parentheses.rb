@@ -1,4 +1,5 @@
 #!/usr/bin/ruby
+
 def eval_expr(a, op, b)
   case op
   when '+'
@@ -7,8 +8,6 @@ def eval_expr(a, op, b)
     a - b
   when '*'
     a * b
-  when '/'
-    a / b
   else
     false
   end
@@ -34,15 +33,15 @@ def parentheses(expression)
   n = nums.size
 
   # Set up the matrix
-  matrix_min = Array.new(n, Array.new(n, 0))
-  matrix_max = Array.new(n, Array.new(n, 0))
-  
+  matrix_min = Array.new(n) { Array.new(n, 0)}
+  matrix_max = Array.new(n) { Array.new(n, 0)}
+
   n -= 1
-  (0..n).each do |i|
-    matrix_min[i][i] = nums[i]
-    matrix_max[i][i] = nums[i]
+  nums.each_with_index do |num, i|
+    matrix_min[i][i] = num
+    matrix_max[i][i] = num
   end
-  
+
   (1..n).each do |s|
     (0..n-s).each do |i|
       j = i + s
@@ -52,7 +51,5 @@ def parentheses(expression)
   matrix_max[0][n]
 end
 
-#p parentheses('1+5')
-#p parentheses('5-8+7*4-8+9')
 expr = gets.chomp
 puts parentheses(expr)
